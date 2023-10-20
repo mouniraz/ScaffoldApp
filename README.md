@@ -96,3 +96,14 @@ Image.asset("assets/image1.jpg", height: 194,width:600,fit: BoxFit.cover,),
 ```
    5. Add anathor  Widget Named AffirmationList that will contain a list of affirmation card 
    
+```dart
+class AffirmationList extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return (
+      ListView(children: [AffirmationCard(),AffirmationCard(),AffirmationCard()],)
+    );
+  }
+}
+```
+6. Add AffirmationList to the body of your  Scaffold and test it the result must be like screen in files of this repository
