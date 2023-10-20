@@ -76,7 +76,6 @@ Column(
       ],
     )
 ```
-
    2. add this Widget to body of your scaffold and test it
    3. add a card widget to your widget as a parent of your Column
       ```dart
@@ -89,11 +88,11 @@ Column(
       ],
     ))
       ```
- 4.Improve Design of your widget and test it
+   4.Improve Design of your widget and test it
 
  ```dart
 Image.asset("assets/image1.jpg", height: 194,width:600,fit: BoxFit.cover,),
  Text("Affirmation Title",style: TextStyle(fontSize: 40))
 ```
-5. Add a 
+   5. Add anathor  Widget Named AffirmationList that will contain a list of affirmation card 
    
