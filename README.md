@@ -67,8 +67,28 @@ Drawer(child: ListView(children: [
        
    ```
 
-## Activity1: Using Layouts to create a Structured Widget
+## Activity2: Using Layouts to create a Structured Widget
+1. create New Widget Named AffirmationCard that contain a column containing an image and a text like this (the image will be in assets directory)
+```dart
+Column(
+      children: [Image.asset("assets/image1.jpg", height: 194,),
+                Text("Affirmation Title", textAlign: TextAlign.center,)
+      ],
+    )
+```
 
+   2. add this Widget to body of your scaffold and test it
+   3. add a card widget to your widget as a parent of your Column
+      ```dart
+      Card(child:Column(
+      mainAxisSize: MainAxisSize.min,
+      
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [Image.asset("assets/image1.jpg", height: 194,),
+                Text("Affirmation Title", textAlign: TextAlign.center,)
+      ],
+    ))
+      ```
 
 
    
