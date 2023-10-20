@@ -67,6 +67,8 @@ Drawer(child: ListView(children: [
        
    ```
 
+## Activity1: Using Layouts to create a Structured Widget
+
 
 
    
